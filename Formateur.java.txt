@@ -1,8 +1,8 @@
 public class Formateur{
         private String nom;
-		private String prenom;
-		private String email;
-		private anneeExperiences;
+	private String prenom;
+	private String email;
+	private int anneeExperiences;
 		
 		public  Formateur(){
 		}
@@ -10,19 +10,36 @@ public class Formateur{
              //Accesseurs des propriétés
 
               public String getNom(){
-                 return this.nom
+                 return this.nom;
                                     }
-
 
               public String getPrenom(){
-                 return this.prenom
+                 return this.prenom;
                                     }
                  public String getEmail(){
-                 return this.email
+                 return this.email;
                                     }
 
-  public String getAnneeExperiences(){
-                 return this.anneeExperiences
+  public int getAnneeExperiences(){
+                 return this.anneeExperiences;
+                                    }
+
+//Les mutateurs
+       public void setNom(String nom){
+                  this.nom=nom;
+                                    }
+
+ public void setPrenom(String prenom){
+                  this.nom=renom;
+
+
+ public void setEmail(String email){
+                  this.email=email;
+}
+
+
+  public void setAnneeExperiences(int a){
+                  this.anneeExperiences=a;
                                     }
 
 }
