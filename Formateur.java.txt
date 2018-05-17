@@ -7,6 +7,18 @@ public class Formateur{
 		public  Formateur(){
 		}
 
+           //Constructeur avec paramètre
+
+public  Formateur(String nom,String prenom,String email){
+           this.nom=nom;
+           this.prenom=prenom;
+           this.email=email;
+		}
+             public  Formateur(String nom,String prenom){
+		 this.nom=nom;
+                 this.prenom=prenom;
+             }
+
              //Accesseurs des propriétés
 
               public String getNom(){
