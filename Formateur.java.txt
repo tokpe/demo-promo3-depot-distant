@@ -7,4 +7,22 @@ public class Formateur{
 		public  Formateur(){
 		}
 
+             //Accesseurs des propriétés
+
+              public String getNom(){
+                 return this.nom
+                                    }
+
+
+              public String getPrenom(){
+                 return this.prenom
+                                    }
+                 public String getEmail(){
+                 return this.email
+                                    }
+
+  public String getAnneeExperiences(){
+                 return this.anneeExperiences
+                                    }
+
 }
