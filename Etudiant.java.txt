@@ -6,6 +6,22 @@ public class Etudiant{
 		public  Etudiant{(){
 		}
 
+public  Etudiant(String nom,String prenom){
+        this.nom=nom;
+        this.prenom=prenom;
+		}
+
+
+//Ajout d'un constructeur avec trois paramètres
+
+
+      public Etudiant(String nom,String prenom,String email){
+              this.nom=nom;
+              this.prenom=prenom;
+              this.email=email;
+        
+       }
+
 public String getNom(){
      return this.nom      
    }
