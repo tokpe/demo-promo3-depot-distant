@@ -1,57 +1,10 @@
 public class Formateur{
         private String nom;
-	private String prenom;
-	private String email;
-	private int anneeExperiences;
+		private String prenom;
+		private String email;
+		private anneeExperiences;
 		
 		public  Formateur(){
 		}
-
-           //Constructeur avec paramètre
-
-public  Formateur(String nom,String prenom,String email){
-           this.nom=nom;
-           this.prenom=prenom;
-           this.email=email;
-		}
-             public  Formateur(String nom,String prenom){
-		 this.nom=nom;
-                 this.prenom=prenom;
-             }
-
-             //Accesseurs des propriétés
-
-              public String getNom(){
-                 return this.nom;
-                                    }
-
-              public String getPrenom(){
-                 return this.prenom;
-                                    }
-                 public String getEmail(){
-                 return this.email;
-                                    }
-
-  public int getAnneeExperiences(){
-                 return this.anneeExperiences;
-                                    }
-
-//Les mutateurs
-       public void setNom(String nom){
-                  this.nom=nom;
-                                    }
-
- public void setPrenom(String prenom){
-                  this.nom=renom;
-
-
- public void setEmail(String email){
-                  this.email=email;
-}
-
-
-  public void setAnneeExperiences(int a){
-                  this.anneeExperiences=a;
-                                    }
 
 }
